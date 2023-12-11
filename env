@@ -1,0 +1,8 @@
+PORT  = 8080
+MONGO_URL = // use your own mongo atlas url
+DEV_MODE = development
+JWT_ACCESS_SECRET = HJFTFC5ty76HVGCGC6r6rhv
+JWT_ACCESS_EXPIREIN = 15min
+JWT_REFRESH_TOKEN = YGIYVIJFDN23tg2hv2v32hv31HFGC
+JWT_REFRESH_EXIPREIN =15day
+OPEN_API_KEY =  // use your own open api ai key
