@@ -6,16 +6,16 @@ import FormatAlignLeftOutlined from "@mui/icons-material/FormatAlignLeftOutlined
 import ChatRounded from "@mui/icons-material/ChatRounded";
 
 const Homepage = () => {
-  // React Router ke useNavigate hook ka upayog karke navigation ke liye navigate function ko retrieve karna
+  
   const navigate = useNavigate();
 
   return (
     <>
-      {/* Box component ka upayog karke layout ko flex row mein set karna */}
+    {
       <Box sx={{ display: "flex", flexDirection: "row" }}>
 
-        {/* Har feature ke liye alag-alag Card component ka upayog karna */}
-        {/* Text Generation Feature */}
+  {
+       {/* Text Generation Feature */}
         <Box p={2}>
           <Typography variant="h4" mb={2} fontWeight="bold">
             Text Generation
